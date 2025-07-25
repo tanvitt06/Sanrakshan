@@ -1,0 +1,113 @@
+/*PAWS SEC*/
+.paws-sec img{
+    width: 100%;
+}
+
+
+/*PAWS INTRO*/
+.paws-intro{
+    margin: 40px 20px;
+}
+.paws-intro h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.paws-des{
+    margin: 20px 20px;
+}
+.paws-des li{
+    list-style: none;
+    font-size: 18px;
+}
+.paws-des-sec{
+    display: flex;
+}
+.paws-des-sec p{
+    width: 600px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.paws-des-sec img{
+    width: 450px;
+    margin-left: 40px;
+}
+
+
+/*PAWS EVENT*/
+.paws-evt{
+    margin: 40px 20px;
+}
+.paws-evt h4{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.paws-evt-sec{
+    display: flex;
+}
+.paws-evt-sec li{
+    width: 600px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.paws-evt-sec img{
+    width: 450px;
+    margin-left: 40px;
+}
+.paws-evt p{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+
+/*PAWS IMPACT*/
+.paws-impact{
+    margin: 60px 20px;
+}
+.paws-impact h4{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.paws-impact-sec{
+    display: flex;
+}
+.paws-impact-sec li{
+    width: 600px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.paws-impact-sec img{
+    width: 450px;
+    margin-left: 40px;
+}
+.paws-impact p{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+
+/*PAWS IMAGES*/
+.paws-images{
+    background-color: rgb(240, 207, 164);
+}
+.paws-images h3{
+    background-color: rgb(119, 165, 167);
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.paws-img-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.paws-img-sec img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin: 20px;
+    border: 2px solid black;
+}

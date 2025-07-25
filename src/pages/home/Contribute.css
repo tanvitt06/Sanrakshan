@@ -1,0 +1,47 @@
+/*CONTRIBUTE-SEC*/
+.contribute-sec img{
+    width: 100%;
+}
+
+
+/*CONTRIBUTE-MAIN-SEC*/
+.contribute-main{
+    margin: 50px 20px;
+}
+.contribute-main h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.main-sec{
+    display: flex;
+}
+.sec-main{
+    margin-top: 20px;
+}
+.sec-main h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.sec-main button{
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(187, 54, 54);
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    transition: transform 0.1s ease;
+}
+.sec-main button:active{
+    transform: scale(0.96);
+}
+
+
+/*MAIN-IMG*/
+.main-img{
+    display: flex;
+    object-fit: cover;
+    align-items: center;
+    margin: 50px 70px;
+}

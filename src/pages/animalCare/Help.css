@@ -1,0 +1,75 @@
+/*HELP SEC*/
+.help-sec img{
+    width: 100%;
+}
+
+
+/*HELP INTRO*/
+.help-intro{
+    margin: 50px 20px;
+}
+.help-intro h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.help-txt-first{
+    display: flex;
+}
+.help-txt-first img{
+    width: 500px;
+    margin-left: 30px;
+}
+.help-first-sec p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/*HELP TEXT*/
+.help-txt-second{
+    margin: 40px 20px;
+}
+.help-txt-second h4{
+    font-size: 30px;
+}
+.help-second-sec{
+    display: flex;
+    margin: 30px 40px;
+}
+.help-second-sec strong{
+    text-decoration: underline;
+}
+.help-second-sec li{
+    font-size: 18px;
+    line-height: 30px;
+}
+.help-second-sec img{
+    width: 400px;
+    object-fit: cover;
+}
+
+
+/*HELP lASTSEC*/
+.help-lastSec{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.help-lastSec h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.help-lastSec-txt{
+    display: flex;
+}
+.help-lastSec-txt p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.help-lastSec-txt img{
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}

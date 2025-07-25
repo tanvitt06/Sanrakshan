@@ -1,0 +1,51 @@
+/*AID SEC*/
+.aid-sec img{
+    width: 100%;
+}
+
+
+/*AID INTRO*/
+.aid-intro{
+    margin: 20px 20px;
+}
+.aid-intro h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.aid-intro p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.aid-txt{
+    margin: 40px 20px;
+}
+.aid-txt h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+.aid-txt-sec{
+    display: flex;
+    line-height: 30px;
+}
+.aid-txt-secs p{
+    margin-top: 10px;
+}
+.aid-txt-secs li strong{
+    text-decoration: underline;
+}
+.aid-txt-sec img{
+    width: 400px;
+}
+
+
+/*AID LAST SEC*/
+.aid-lastSec{
+    margin: 60px 40px;
+}
+.aid-lastSec h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.aid-lastSec li{
+    margin-top: 15px;
+}

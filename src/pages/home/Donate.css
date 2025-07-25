@@ -1,0 +1,181 @@
+/*DONATE-INTRO*/
+.donate-sec img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*DONATE-SECOND*/
+.donate-second{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.donate-sec-txt{
+    width: 600px;
+    margin-left: 20px;
+    line-height: 30px;
+}
+.donate-sec-txt p{
+    margin-top: 10px;
+}
+.donate-sec-txt h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.donate-sec-img{
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+/*DONATE THIRD*/
+.donate-third{
+    display: flex;
+    align-items: center;
+}
+.donate-third-txt{
+    width: 600px;
+    margin-left:20px;
+    line-height: 30px;
+}
+.donate-third-txt h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.donate-third-txt p{
+    margin-top: 10px;
+}
+.donate-third-img{
+    width: 450px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*DONATE FORM*/
+.donate-form{
+    display: flex;
+}
+.form-heading{
+    margin-left: 70px;
+}
+.form-heading input{
+    width: 300px;   
+    border: none;
+    margin-top: 10px;
+    padding: 10px
+}
+.donate-btn button{
+    width: 100px;
+    height: 30px;
+    margin: 30px 380px;
+    background-color: rgb(187, 54, 54);
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    transition: transform 0.1s ease;
+}
+.donate-btn:active{
+    transform: scale(0.96);
+}
+
+
+
+/*CSS MODAL*/
+.error-msg{
+    color: red;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.modal-sec{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+.upi-modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: beige;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;  
+    z-index: 1001;
+}
+.upi-sec h3{
+    text-align: center;
+}
+.upi-sec p{
+    text-align: center;
+    margin-top: 10px;
+}
+.upi-img{
+    display: flex;
+    align-items: center;
+}
+.upi-img input{
+    height: 20px;
+    padding: 10px;
+    border: none;
+}
+.upi-img img{
+    width: 150px;
+}
+.upi-btn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 20px;
+}
+.upi-btn button{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(187, 54, 54);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    transition: transform 0.1s ease;
+}
+.upi-btn:active{
+    transform: scale(0.96);
+}
+
+.thank-modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: beige;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100px;  
+    z-index: 1001;
+}
+.thank-sec h3{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+}

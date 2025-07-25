@@ -1,0 +1,162 @@
+/* HOME IMG */
+.home-heroic{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.home-img img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.slick-dots {
+  position: absolute !important;
+  bottom: 15px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 10 !important;
+}
+
+
+/* HOME HELP */
+.home-help{
+    background-color: #98261f;
+    height:auto;
+}
+.home-help p{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 25px;  
+}
+.help-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    gap: 70px;
+    margin-top: 30px;
+}
+.help-item h3{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.help-item p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.help-item img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.help-btn{
+    height: 30px;
+    width: 80px;
+    background-color:goldenrod;
+    color: white;
+    display: block;
+    cursor: pointer;
+    margin: 10px auto;
+    border: none;
+    border-radius: 20px;
+    transition: transform 0.1s ease;
+}
+.help-btn:active {
+  transform: scale(0.96);
+}
+.link-line{
+    text-decoration: none;
+}
+
+
+/* HOME GALLERY */
+.home-gall p{
+    margin: 5px 25px;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+.home-gall i{
+    font-weight: 300;
+}
+.gall-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.card{
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.card p{
+    font-size: 18px;
+    color: #555;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+
+/* HOME NEWS */
+.home-news p{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+.single-news{
+    display: flex;
+    justify-content: center;
+    margin: 5px 25px;
+}
+.single-news img{
+    width: 400px;
+    height: 400px;
+}
+.single-news h2{
+    margin: 2px 20px;
+}
+.single-news p{
+    color: #555;
+    margin: 15px 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.single-news a{
+    margin: 30px 20px;
+}
+
+
+/* HOME LAST */
+.home-last{
+    height: auto;
+    width: 100%;
+}
+.home-last p{
+    color: black;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 100px;
+}
+.home-logo{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    gap: 30px;
+    margin: 30px 170px;
+}

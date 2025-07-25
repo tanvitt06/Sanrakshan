@@ -1,0 +1,174 @@
+/*SPONSOR-SEC*/
+.sponsor-sec img{
+    width: 100%;
+}
+
+
+/*SPONSOR-INTRO*/
+.sponsor-intro{
+    margin: 40px 20px;
+}
+.sponsor-intro h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.sponsor-intro-txt{
+    display: flex;
+    margin-top: 10px;
+}
+.sponsor-intro-txt p{
+    width: 600px;
+    line-height: 27px;
+}
+.sponsor-intro-txt img{
+    width: 500px;
+    margin-left: 20px;
+}
+
+
+/*SPONSOR VALE*/
+.sponsor-supports{
+    display: block;
+}
+.sponsor-supports h3{
+    margin: 40px 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.sponsor-sec-first{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sponsor-sec-first img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+.sponsor-sec-first h4{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.sponsor-sec-second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.sponsor-sec-second img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+.sponsor-sec-second h4{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+/*BECOME A SPONSOR*/
+.sponsor-become{
+    margin: 100px 20px;
+}
+.sponsor-become h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.sponsor-become p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.sponsor-become button{
+    margin-top: 15px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(187, 54, 54);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.1s ease;
+}
+.sponsor-become button:active{
+    transform: scale(0.96);
+}
+
+
+
+/*CSS MODAL*/
+.form-modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: beige;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;  
+    z-index: 1001;
+}
+.form-sec h3{
+    text-align: center;
+}
+.error-popUp{
+    color: red;
+    margin-top: 10px;
+}
+.form-input{
+    display: block;
+    margin-top: 10px;
+}
+.form-input input{
+    padding: 5px;
+    border: none;
+}
+.form-input textarea{
+    border: none;
+    height: 70px;
+}
+.form-btn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 10px;
+}
+.form-btn button{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(187, 54, 54);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    transition: transform 0.1s ease;
+}
+.form-btn:active{
+    transform: scale(0.96);
+}
+.success-modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: beige;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;  
+    z-index: 1001;
+}
+.success-sec h3{
+    text-align: center;
+    font-weight: 500;
+}

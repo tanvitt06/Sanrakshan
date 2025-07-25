@@ -1,0 +1,81 @@
+.volunteer-intro{
+    position: relative;
+}
+
+
+/*INTRODUCTION*/
+.volunteer-intro img{
+    width: 100%;
+    height: auto;
+}
+.volunteer-txt{
+    position: absolute;
+    display: block;
+    top: 30%;
+    left: 5%;
+    color: white;
+}
+.volunteer-txt h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.volunteer-txt p{
+    font-size: 18px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+
+/*TEAM*/
+.volunteer-first{
+    margin: 100px 30px;
+}
+.volunteer-first h3{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.fir-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.volunteer-item img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(100, 99, 99, 0.5);
+}
+.volunteer-item h4{
+    font-size: 20px;
+    text-align: center;
+    margin-left: -15px;
+}
+.volunteer-item h5{
+    font-size: 15px;
+    font-weight: 500;
+    color:dimgray;
+    text-align: center;
+    margin-left: -15px;
+}
+.volunteer-item p{
+    margin-top: 10px;
+    width: 250px;
+}
+
+
+/*JOIN*/
+.volunteer-second{
+    margin: 50px 40px;
+}
+.volunteer-second h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+.volunteer-second p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+}

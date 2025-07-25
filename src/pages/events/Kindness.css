@@ -1,0 +1,110 @@
+/*KINDNESS SEC*/
+.kindness-sec img{
+    width: 100%;
+}
+
+
+/*KINDNESS INTRO*/
+.kindness-intro{
+    margin: 40px 20px;
+}
+.kindness-intro h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.kindness-des{
+    margin: 20px 20px;
+}
+.kindness-des li{
+    list-style: none;
+    font-size: 18px;
+}
+.kindness-des-sec{
+    display: flex;
+}
+.kindness-des-sec p{
+    width: 600px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.kindness-des-sec img{
+    width: 450px;
+    margin-left: 40px;
+}
+
+
+/*KINDNESS EVENT*/
+.kindness-evt{
+    margin: 40px 20px;
+}
+.kindness-evt h4{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.kindness-evt-sec{
+    display: flex;
+}
+.kindness-evt-sec li{
+    width: 600px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.kindness-evt-sec img{
+    width: 450px;
+    margin-left: 40px;
+}
+
+
+/*KINDNESS IMPACT*/
+.kindness-impact{
+    margin: 60px 20px;
+}
+.kindness-impact h4{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.kindness-impact-sec{
+    display: flex;
+}
+.kindness-impact-sec li{
+    width: 600px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.kindness-impact-sec img{
+    width: 450px;
+    height: 350px;
+    margin-left: 40px;
+}
+.kindness-impact p{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+
+/*KINDNESS IMAGES*/
+.kindness-images{
+    background-color: rgb(240, 207, 164);
+}
+.kindness-images h3{
+    background-color: rgb(119, 165, 167);
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.kindness-img-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.kindness-img-sec img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: 20px;
+    border: 2px solid black;
+}

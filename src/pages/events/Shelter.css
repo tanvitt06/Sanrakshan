@@ -1,0 +1,109 @@
+/*SHELTER SEC*/
+.shelter-sec img{
+    width: 100%;
+}
+
+
+/*SHELTER INTRO*/
+.shelter-intro{
+    margin: 40px 20px;
+}
+.shelter-intro h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.shelter-des{
+    margin: 20px 20px;
+}
+.shelter-des li{
+    list-style: none;
+    font-size: 18px;
+}
+.shelter-des-sec{
+    display: flex;
+}
+.shelter-des-sec p{
+    width: 600px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.shelter-des-sec img{
+    width: 450px;
+    margin-left: 40px;
+}
+
+
+/*SHELTER EVENT*/
+.shelter-evt{
+    margin: 40px 20px;
+}
+.shelter-evt h4{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.shelter-evt-sec{
+    display: flex;
+}
+.shelter-evt-sec li{
+    width: 600px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.shelter-evt-sec img{
+    width: 450px;
+    margin-left: 40px;
+}
+
+
+/*SHELTER IMPACT*/
+.shelter-impact{
+    margin: 60px 20px;
+}
+.shelter-impact h4{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.shelter-impact-sec{
+    display: flex;
+}
+.shelter-impact-sec li{
+    width: 600px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.shelter-impact-sec img{
+    width: 450px;
+    margin-left: 40px;
+}
+.shelter-impact p{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+
+/*SHELTER IMAGES*/
+.shelter-images{
+    background-color: rgb(240, 207, 164);
+}
+.shelter-images h3{
+    background-color: rgb(119, 165, 167);
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.shelter-img-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.shelter-img-sec img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin: 20px;
+    border: 2px solid black;
+}

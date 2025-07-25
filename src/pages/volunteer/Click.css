@@ -1,0 +1,157 @@
+/*CLICK SEC*/
+.click-sec img{
+    width: 100%;
+}
+
+/*CLICK FORM*/
+.click-form h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.click-form p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.click-input{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.click-input input{
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+}
+
+
+/*CLICK ADDRESS*/
+.click-add{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.click-add input{
+    width: 700px;
+    padding: 15px;
+    margin-top: 5px;
+    border: none;
+}
+
+
+/*CLICK RADIO*/
+.click-radio{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.click-radio label {
+    margin-right: 20px;
+}
+.click-radio input{
+    margin-top: 10px;
+}
+
+
+/*CLICK TAB*/
+.click-tab{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.click-select select{
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #fff;
+    outline: none;
+}
+.click-txt{
+    margin-left: 160px;
+}
+.click-txt textarea{
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+}
+
+
+/*CLICK CHECKBOX*/
+.click-checkbox{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.checkbox-form{
+    display: flex;
+}
+.checkbox-sec label{
+    display: block;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.checkbox-sec input[type="checkbox"]{
+    transform: scale(1.5);
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+
+/*CLICK MSG*/
+.click-msg{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.click-msg textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+}
+
+
+/*CLICK BTN*/
+.click-btn button{
+    margin: 20px 70px;
+    font-size: 16px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(187, 54, 54);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.1s ease;
+}
+.click-btn button:active{
+    transform: scale(0.96);
+}
+
+
+
+/*CSS MODAL*/
+.click-error{
+    color: red;
+}
+.success-sec{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: beige;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;  
+    z-index: 1001;
+}
+.success-sec h4{
+    text-align: center;
+    font-weight: 500;
+}
